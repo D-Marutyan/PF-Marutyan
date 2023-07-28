@@ -1,0 +1,13 @@
+
+
+.lowright-end{
+    margin: $spacing-medium;
+    display: flex;
+    line-height: 80px;
+    justify-content: end;
+    a{
+        color: $txt-color;
+        margin-right: 5px;
+        font-size: 25px;
+    }
+}

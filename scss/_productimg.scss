@@ -1,0 +1,44 @@
+.image-pcbuild{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: $spacing-medium;
+    margin-top: - $spacing-medium;
+    width: 800px;
+    display: block;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.shower{
+    overflow: hidden;
+    background-color: $bg-color;
+    h2 {
+        margin-left: $spacing-medium;
+        font-size: 40px;
+        color: $txt-color;
+    }
+    h3 {
+        margin-left: $spacing-medium;
+        font-size: 25px;
+        color: $txt-color;
+    }
+}
+
+.image-container {
+    align-items: center;
+    display: flex;
+    justify-content:space-around;
+    gap: $spacing-medium;
+    font-size: 20px;
+    color: $txt-color ;
+    flex-wrap: wrap;
+    img {
+        width: 400px;
+        height: auto;
+    }
+}
+.boxed-image {
+    border: 3px solid $pmry-color;
+    border-radius: 5px;
+    padding: $spacing-medium;
+    margin: $spacing-medium;
+}

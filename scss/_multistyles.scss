@@ -1,0 +1,23 @@
+/*STYLES USED IN MULTIPLE PAGES*/ 
+
+.main-backround{
+    background-color: $bg-color;
+}
+.titulo-principal{
+    margin: 10px;
+    color:$txt-color;
+}
+.topright-end{
+    margin: 10px;
+    display: flex;
+    align-items: center;
+}
+.topright-end a{
+    color:$txt-color;
+    margin-right: 5px;
+    font-size: 25px;
+}
+.carrito-small{
+    width: 40px;
+    padding: 10px;
+}

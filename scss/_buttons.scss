@@ -1,0 +1,29 @@
+
+$button-padding: 10px 20px;
+$button-border-radius: 4px;
+$button-primary-bg: rgb(244, 82, 54);
+$button-primary-color: rgb(255, 241, 225);
+$button-secondary-bg: rgb(108, 117, 125);
+$button-secondary-color: rgb(255, 255, 255);
+$button-hover-bg: darken($button-primary-bg, 10%);
+
+.boton-compra{ 
+    display:  inline-block;
+    margin:  4px 2px;
+    padding:  $button-padding;
+    color:  $button-primary-color;
+    background-color:  $button-primary-bg;
+    border:  none;
+    border-radius: $button-border-radius;
+    font-size:  15px;
+    text-align:  center;
+    text-decoration:  none;
+    cursor: pointer;
+    &:hover{
+        background-color: darken($button-primary-color, 10%);
+    }
+}
+
+.button-container {
+    margin-top: $spacing-medium;
+}

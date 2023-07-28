@@ -1,0 +1,221 @@
+       /*MEDIA QUERIES*/
+    
+     /* Estilos para pantalla width hasta 320px */
+     @media screen and (max-width: 320px) {
+        .horizontal-nav h1 {
+            font-size: 35px;
+        }/*page "index"*/
+      
+        .image-pcbuild {
+          width: 100%;
+        } /*page "index"*/
+      
+        .boxed-image img {
+            width: 100%;
+            height: auto;
+        } /*page "index"*/
+        
+        .boxed-image {
+            border: 2px solid #f45236;
+            padding: 8px;
+            margin: 8px;
+        } /*page "index"*/
+        
+        .contactos-info2{
+            margin-left: 20%;
+        } /*page "Contactos"*/
+        main.main-backround textarea {
+            width: 80%;
+          } /*page "Contactos"*/
+          .image-container2 {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+            font-size: 20px;
+            color: rgb(255, 241, 225);
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+        } /*page "Compra"*/
+    
+        .image-container2 img {
+            width: 60%;
+        } /*page "Compra"*/
+    
+        .grid-container{
+            display: grid;
+            grid-template-columns: 180px 380px 380px 130px;
+            grid-template-rows: 100px auto auto auto;
+        }
+        
+      }
+       /* Estilos para pantalla width entre 321px y 480px */
+      @media screen and (min-width: 321px) and (max-width: 480px) {
+        .horizontal-nav h1 {
+            font-size: 35px;
+        } /*page "index"*/
+        
+          .image-pcbuild {
+            width: 100%;
+        } /*page "index"*/
+    
+          .boxed-image img {
+            width: 100%;
+            height: auto;
+        } /*page "index"*/
+        
+          .boxed-image {
+            border: 2px solid #f45236;
+            padding: 8px;
+            margin: 8px;
+        } /*page "index"*/
+
+        .sub-titulo{
+            font-size: 25px;
+        } /*page "Contactos"*/
+          .contactos-info2{
+            margin-left: 20%;
+        } /*page "Contactos"*/
+    
+          main.main-backround textarea {
+            .contactos-info{
+                margin-top: 10px;
+            }
+            width: 80%;
+        } /*page "Contactos"*/
+        .image-container2 {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+            font-size: 20px;
+            color: rgb(255, 241, 225);
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+        } /*page "Compra"*/
+    
+        .image-container2 img {
+            width: 60%;
+        } /*page "Compra"*/
+        .grid-container{
+            display: grid;
+            grid-template-columns: 180px 380px 380px 130px;
+            grid-template-rows: 100px auto auto auto;
+        }
+        
+      }
+      
+      /* Estilos para pantalla width entr 481px y 600px */
+      @media screen and (min-width: 481px) and (max-width: 600px) {
+        .image-pcbuild {
+            width: 100%;
+          } /*page "index"*/       
+        .boxed-image img {
+            width: 100%;
+            height: auto;
+        } /*page "index"*/
+    
+        .boxed-image {
+            border: 2px solid #f45236;
+            padding: 10px;
+            margin: 10px;
+        } /*page "index"*/
+    
+        main.main-backround textarea {
+            .contactos-info{
+                margin-top: 10px;
+            }
+            width: 80%; /* Decrease the width to 80% of the container */
+        } /*page "index"*/
+        
+        .contactos-info2{
+            margin-left: 20%;
+        } /*page "Contactos"*/
+        .image-container2 {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+            font-size: 20px;
+            color: rgb(255, 241, 225);
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+        } /*page "Compra"*/
+    
+        .image-container2 img {
+            width: 50%;
+        } /*page "Compra"*/
+    
+        .grid-container{
+            display: grid;
+            grid-template-columns: 180px 380px 380px 130px;
+            grid-template-rows: 100px auto auto auto;
+        }
+      }
+      
+      /* Estilos para pantalla width entre 601px y 768px */
+      @media screen and (min-width: 601px) and (max-width: 768px) {
+        .image-pcbuild {
+            width: 100%;
+        } /*page "Index"*/
+          .image-container2 {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+            font-size: 20px;
+            color: rgb(255, 241, 225);
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+        } /*page "Compra"*/
+    
+        .image-container2 img {
+            width: 50%;
+        } /*page "Compra"*/
+        .grid-container{
+            display: grid;
+            grid-template-columns: 180px 380px 380px 130px;
+            grid-template-rows: 100px auto auto auto;
+        }
+      }
+      
+      /* Estilos para pantalla width entre 769px y 1024px */
+      @media screen and (min-width: 769px) and (max-width: 1024px) {
+        .image-container2 {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+            font-size: 20px;
+            color: rgb(255, 241, 225);
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+        } /*page "Compra"*/
+        .image-container2 img {
+            width: 50%;
+        } /*page "Compra"*/
+        .grid-container{
+            display: grid;
+            grid-template-columns: 200px 400px 400px 150px;
+            grid-template-rows: 100px auto auto auto;
+        }
+      }
+      
+      /* Estilos para pantalla width entre 1025px y 1200px */
+      @media screen and (min-width: 1025px) and (max-width: 1200px) {
+        .grid-container{
+            display: grid;
+            grid-template-columns: 220px 400px 400px 200px;
+            grid-template-rows: 100px auto auto auto;
+        }
+      }
+      
+      /* Estilos para pantalla width 1200px para arriba */
+      @media screen and (min-width: 1201px) {
+     
+      }

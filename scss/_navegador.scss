@@ -1,0 +1,20 @@
+.horizontal-nav {
+    margin: $spacing-medium;
+    display: flex;
+    align-items: center;
+    h1{
+        font-family:$font;
+        color: $txt-color;
+        margin-right: $spacing-small;
+        font-size: $font-title;
+    }
+}
+.left-section{
+    margin-right: auto;
+    a{
+        text-decoration: none;
+    }
+}
+.right-section{
+    margin-left: $spacing-medium;
+}
