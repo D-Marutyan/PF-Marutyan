@@ -3,7 +3,6 @@
         height: 100%;
     }header{
         background-color:$scnd-bg-color;
-        height: 100px; 
         overflow: hidden;
     }
     footer{
@@ -20,8 +19,6 @@
         background-color:$body-bg-color;
         font-family:$font;
         min-height: 100%;
-        display: flex;
-        flex-direction: column;
       }
     
     
