@@ -18,51 +18,72 @@
 .right-section{
     margin-left: $spacing-medium;
 }*/
+*{
+  padding: 0;
+  margin:0;
+}
 
 .topnav {
-    background-color: $scnd-bg-color;
-    overflow: hidden;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    h1{
-        font-size: $font-title;
-        margin: 0;
-        line-height: 1;
-    }
-    ul {
-        margin-top: 15px;
-        list-style: none;
-        display: flex;
-        align-items: center;
-    }
-    li {
+  background-color: $scnd-bg-color;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  a{
+    text-decoration: none;
+  }
+  h1{
+      font-size: $font-title;
+      margin: 0;
+      
+  }
+  ul {
+      margin-top: 15px;
+      list-style: none;
+      display: flex;
+      align-items: center;
+      li {
         margin-left: 15px;
+        color: $txt-color;
+        position: relative;
+        ul{
+          position: absolute;
+          background-color: $bg-color;
+          display: flex;
+          flex-direction: column;
+          left: -5px;
+          z-index: 99;
+        }
+        a{
+          text-decoration: none;
+          color: $txt-color;
+          text-align: center;
+          padding: 10px 20px;
+          text-decoration: none;
+          font-size: $nav-font;
+          &:hover + ul{
+            height: auto;
+          } 
+        }
+        a:hover {
+          background-color: $bg-color;
+          color: $txt-color;
+          
+        }
         
-      }    
-      a{
-        color: $txt-color;
-        text-align: center;
-        padding: 10px 20px;
-        text-decoration: none;
-        font-size: $nav-font; 
-      }
-      a:hover {
-        background-color: $bg-color;
-        color: $txt-color;
-        font-size: 23px;
+        a.split {
+          float: right;
+          color: white;
+        }
       }
       
-      a.split {
-        float: right;
-        
-        color: white;
-      }
-  }
+  }   
+}
+   
+    
 
-  .carrito-small{
-    height: 100%;
-    width: $spacing-extra-large;
+.carrito-small{
+  height: 100%;
+  width: $spacing-extra-large;
 }
 
   

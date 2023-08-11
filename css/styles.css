@@ -19,17 +19,23 @@
 .right-section{
     margin-left: $spacing-medium;
 }*/
+* {
+  padding: 0;
+  margin: 0;
+}
+
 .topnav {
   background-color: rgb(28, 28, 29);
-  overflow: hidden;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+.topnav a {
+  text-decoration: none;
+}
 .topnav h1 {
   font-size: 50px;
   margin: 0;
-  line-height: 1;
 }
 .topnav ul {
   margin-top: 15px;
@@ -37,22 +43,35 @@
   display: flex;
   align-items: center;
 }
-.topnav li {
+.topnav ul li {
   margin-left: 15px;
+  color: rgb(255, 241, 225);
+  position: relative;
 }
-.topnav a {
+.topnav ul li ul {
+  position: absolute;
+  background-color: rgb(48, 48, 49);
+  display: flex;
+  flex-direction: column;
+  left: -5px;
+  z-index: 99;
+}
+.topnav ul li a {
+  text-decoration: none;
   color: rgb(255, 241, 225);
   text-align: center;
   padding: 10px 20px;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 22px;
 }
-.topnav a:hover {
+.topnav ul li a:hover + ul {
+  height: auto;
+}
+.topnav ul li a:hover {
   background-color: rgb(48, 48, 49);
   color: rgb(255, 241, 225);
-  font-size: 23px;
 }
-.topnav a.split {
+.topnav ul li a.split {
   float: right;
   color: white;
 }
@@ -98,6 +117,8 @@ main {
 
 body {
   background-color: rgb(255, 241, 225);
+  background-size: cover;
+  background-position: center;
   font-family: "Times New Roman", Times, serif !important;
   min-height: 100%;
 }
@@ -214,6 +235,8 @@ main {
 
 body {
   background-color: rgb(255, 241, 225);
+  background-size: cover;
+  background-position: center;
   font-family: "Times New Roman", Times, serif !important;
   min-height: 100%;
 }
