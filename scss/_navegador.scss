@@ -36,50 +36,56 @@
       margin: 0;
       
   }
-  ul {
+  > ul {
       margin-top: 15px;
       list-style: none;
       display: flex;
+      justify-content: end;
       align-items: center;
-      li {
-        margin-left: 15px;
+       li { 
         color: $txt-color;
         position: relative;
         ul{
+          margin-top: 15px;
           position: absolute;
+          list-style: none;
           background-color: $bg-color;
-          display: flex;
           flex-direction: column;
-          left: -5px;
-          z-index: 99;
+          max-height: 0px;
+          overflow: hidden;
+          transition: 1s;
+          a{
+            text-align: center;
+            font-size: 15px;
+          }
         }
         a{
           text-decoration: none;
           color: $txt-color;
           text-align: center;
           padding: 10px 20px;
-          text-decoration: none;
           font-size: $nav-font;
           &:hover + ul{
+            color: $pmry-color;
             height: auto;
+            max-height: 500px;
+            align-content: center;
           } 
         }
         a:hover {
           background-color: $bg-color;
-          color: $txt-color;
-          
-        }
+          color: $pmry-color;
+        } 
         
-        a.split {
-          float: right;
-          color: white;
+        li:hover {
+          background-color: $bg-color;
+          color: $pmry-color;
         }
+       
       }
       
   }   
 }
-   
-    
 
 .carrito-small{
   height: 100%;

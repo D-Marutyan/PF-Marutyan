@@ -3,7 +3,7 @@
         height: 100%;
     }header{
         background-color:$scnd-bg-color;
-        overflow: hidden;
+        
     }
     footer{
         background-color:$scnd-bg-color ;
@@ -11,9 +11,7 @@
         overflow: hidden;
     }
     main {
-        overflow: hidden;
-        background-color: rgb(0, 0, 0);
-        flex: 1;
+        background-color: $body-bg-color;
     }
     body {
         background-color:$body-bg-color;
